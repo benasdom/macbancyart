@@ -269,7 +269,6 @@
     position: absolute;
     inset: 0;
     z-index: 0;
-    margin:auto;
     mix-blend-mode: multiply;
   }
   .hero-bg img {
@@ -866,7 +865,7 @@
   .cta-actions { display: flex; gap: 1.2rem; justify-content: center; align-items: center; }
 
   /* ─── FOOTER ─── */
-  footer { background: var(--black); border-top: 1px solid rgba(201,168,76,0.12); padding: 5rem 4rem 2.5rem; }
+  footer {  border-top: 1px solid rgba(201,168,76,0.12); padding: 5rem 4rem 2.5rem; }
   .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 4rem; padding-bottom: 3.5rem; border-bottom: 1px solid rgba(201,168,76,0.08); margin-bottom: 2.5rem; }
   .footer-logo { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 1.3rem; }
   .footer-logo img { width: 34px; height: 34px; border-radius: 50%; object-fit: cover; filter: sepia(20%); }
