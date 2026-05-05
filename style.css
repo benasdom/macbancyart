@@ -304,6 +304,7 @@
     max-width: 700px;
   }
 
+  
   .hero-eyebrow {
     font-family: var(--font-ui);
     font-size: 0.62rem;
@@ -977,6 +978,10 @@
     .nav-cta { display: none; }
     .hamburger { display: flex; }
     .hero { padding: 0 1.5rem; padding-top: 80px; min-height: 100svh; }
+    .hero-content{
+    margin-top:-65px;
+
+    }
     .hero-title { font-size: clamp(2rem, 9vw, 3.2rem); }
     .hero-actions { flex-direction: column; align-items: stretch; gap: 0.8rem; }
     .btn-primary, .btn-ghost { text-align: center; display: block; }
