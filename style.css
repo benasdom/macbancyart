@@ -177,8 +177,7 @@
     text-decoration: none;
   }
   .nav-logo img {
-    width: 32px; height: 32px;
-    border-radius: 50%;
+    height: 32px;
     object-fit: cover;
   }
   .nav-logo-text {
@@ -950,7 +949,7 @@
   footer {  border-top: 1px solid rgba(201,168,76,0.12); padding: 5rem 4rem 2.5rem; }
   .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 4rem; padding-bottom: 3.5rem; border-bottom: 1px solid rgba(201,168,76,0.08); margin-bottom: 2.5rem; }
   .footer-logo { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 1.3rem; }
-  .footer-logo img { width: 34px; height: 34px; border-radius: 50%; object-fit: cover; filter: sepia(20%); }
+  .footer-logo img { height: 34px;object-fit: cover;}
   .footer-logo-text { font-family:michroma; font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase; 
     color:transparent;
     background:linear-gradient(45deg,var(--text-secondary), var(--gold),var(--text-secondary));
@@ -1024,7 +1023,7 @@
   .hamburger.open span:nth-child(2) { opacity: 0; }
   .hamburger.open span:nth-child(3) { transform: translateY(-5.5px) rotate(-45deg); }
 
-  .mobile-menu { position: fixed; inset: 0; background: var(--black); z-index: 1001; flex-direction: column; align-items: center; justify-content: center; gap: 2.2rem; opacity: 0; pointer-events: none; transition: opacity 0.4s; display: flex; }
+  .mobile-menu { position: fixed; inset: 0; background: var(--bg); z-index: 1001; flex-direction: column; align-items: center; justify-content: center; gap: 2.2rem; opacity: 0; pointer-events: none; transition: opacity 0.4s; display: flex; }
   .mobile-menu.open { opacity: 1; pointer-events: all; }
   .mobile-menu a { font-family: var(--font-display); font-size: 1.8rem; font-weight: 400; letter-spacing: 0.08em; color: var(--text-primary); text-decoration: none; transition: color 0.3s; }
   .mobile-menu a:hover { color: var(--gold); }

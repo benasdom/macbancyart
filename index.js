@@ -13,7 +13,7 @@
     mobileMenu.setAttribute('aria-hidden', !isOpen);
     document.body.style.overflow = isOpen ? 'hidden' : '';
   });
-  document.querySelectorAll('.mobile-nav-link, .mobile-cta').forEach(link => {
+  document.querySelectorAll('.mobile-nav-link, .mobile-cta, .menu-close').forEach(link => {
     link.addEventListener('click', () => {
       mobileMenu.classList.remove('open');
       hamburger.classList.remove('open');
