@@ -1003,6 +1003,9 @@
 
   /* ─── LOADER ─── */
   #loader { position: fixed; inset: 0; background: var(--black); z-index: 99998; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.8rem; transition: opacity 0.8s, visibility 0.8s; }
+  #loader img{
+    height:42px;
+  }
   #loader.hidden { opacity: 0; visibility: hidden; }
   .loader-logo { font-family: var(--font-display); font-size: 1.2rem; letter-spacing: 0.4em; color: var(--gold); text-transform: uppercase; opacity: 0; animation: fadeIn 0.6s 0.2s forwards; }
  .loader-logo img{
