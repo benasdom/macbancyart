@@ -21,8 +21,7 @@
 
   [data-theme="light"] {
     --bg: var(--white);
-    --state: invert(1);
-        --bg-soft: var(--white-soft);
+    --bg-soft: var(--white-soft);
     --bg-card: #F8F5EE;
     --bg-border: #E0DDD4;
     --text-primary: var(--black);
@@ -36,8 +35,6 @@
 
   [data-theme="dark"] {
     --bg: var(--black);
-    --state: invert(0);
-
     --bg-soft: var(--black-soft);
     --bg-card: var(--black-card);
     --bg-border: var(--black-border);
@@ -182,7 +179,6 @@
   .nav-logo img {
     height: 32px;
     object-fit: cover;
-    filter:var(--state);
   }
   .nav-logo-text {
     font-family: michroma;
@@ -953,7 +949,7 @@
   footer {  border-top: 1px solid rgba(201,168,76,0.12); padding: 5rem 4rem 2.5rem; }
   .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 4rem; padding-bottom: 3.5rem; border-bottom: 1px solid rgba(201,168,76,0.08); margin-bottom: 2.5rem; }
   .footer-logo { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 1.3rem; }
-  .footer-logo img { height: 34px;object-fit: cover; filter:var(--state)}
+  .footer-logo img { height: 34px;object-fit: cover;}
   .footer-logo-text { font-family:michroma; font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase; 
     color:transparent;
     background:linear-gradient(45deg,var(--text-secondary), var(--gold),var(--text-secondary));
